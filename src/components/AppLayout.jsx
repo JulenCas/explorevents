@@ -4,10 +4,10 @@ export default function AppLayout() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <Link to="/" className="brand">🎉 ExploraEventos Aragón</Link>
+        <Link to="/" className="brand">ExploraEventos Aragón</Link>
         <nav>
-          <NavLink to="/" end>Agenda</NavLink>
-          <NavLink to="/favoritos">Mis favoritos</NavLink>
+          <NavLink to="/" end>Eventos</NavLink>
+          <NavLink to="/favoritos">Favoritos</NavLink>
         </nav>
       </header>
       <main>
